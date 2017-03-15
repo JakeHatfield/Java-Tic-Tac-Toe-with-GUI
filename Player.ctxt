@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=playerOrder\ squareValue\ name\ image
+comment0.target=Player(int,\ int,\ java.lang.String,\ javax.swing.ImageIcon)
+comment0.text=\r\n\ Creates\ the\ player\ and\ holds\ their\ turn\ value\ (player\ order),\ their\ square\ value,\r\n\ their\ name,\ and\ their\ image.\r\n\ \r\n\ @param\ playerOrder\ \ the\ player\ order\ or\ turn\ value.\ ie\:\ player\ 1\ \=\ 1\r\n\ @param\ squareValue\ \ the\ square\ value\ for\ the\ players\ image\ ie\:\ player\ 1\ \=\ 11\r\n\ @param\ name\ \ the\ name\ of\ the\ player\r\n\ @param\ image\ \ the\ image\ of\ the\ player,\ png\ or\ jpg\ image\ file\ as\ an\ ImageIcon\r\n
+comment1.params=name
+comment1.target=void\ setName(java.lang.String)
+comment1.text=\r\n\ Changes\ the\ name\ of\ the\ player.\r\n\ \r\n\ @param\ name\ \ the\ new\ name\ for\ the\ player\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Gets\ the\ name\ of\ the\ player.\r\n\ \r\n\ @retrun\ \ the\ name\ of\ the\ player\r\n
+comment3.params=image
+comment3.target=void\ setImage(javax.swing.ImageIcon)
+comment3.text=\r\n\ Sets\ the\ image\ of\ the\ player.\r\n\ \r\n\ @param\ image\ \ the\ image\ of\ the\ player\ in\ jpg\ or\ png\ fileformat\r\n
+comment4.params=
+comment4.target=javax.swing.ImageIcon\ getPlayerImage()
+comment4.text=\r\n\ Gets\ the\ players\ image.\r\n\ \r\n\ @return\ \ the\ image\ of\ the\ player\r\n
+comment5.params=
+comment5.target=int\ getPlayerOrder()
+comment5.text=\r\n\ Gets\ the\ player\ order\ or\ turn\ order\ for\ the\ player.\r\n\ \r\n\ @return\ \ gives\ the\ player\ order\ or\ turn\ order\ for\ the\ player\r\n
+comment6.params=
+comment6.target=int\ getSquareValue()
+comment6.text=\r\n\ Gets\ the\ square\ value\ for\ the\ player.\ This\ value\ is\ where\ the\ image\ is\ stored.\r\n\ \r\n\ @return\ the\ square\ value\ for\ the\ player\r\n
+numComments=7

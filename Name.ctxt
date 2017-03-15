@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getName()
+comment0.text=\r\n\ Should\ be\ used\ to\ return\ the\ name\ field.\r\n\ \r\n\ @return\ returns\ the\ Name\ field\ or\ equivalent\r\n
+numComments=1

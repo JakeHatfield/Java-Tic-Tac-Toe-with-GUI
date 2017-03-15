@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=str
+comment0.target=NoNameException(java.lang.String)
+comment0.text=\r\n\ Creates\ the\ expception\ and\ sets\ the\ name\ for\ the\ exception.\r\n\ \r\n\ @param\ str\ \ the\ name\ passed\ in\ by\ the\ exception\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ Gets\ the\ name\ from\ the\ name\ field.\r\n\ \r\n\ @return\ \ the\ name\ from\ this\ exception\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Changes\ the\ toString\ so\ valuable\ information\ is\ printed\ for\ this\ exception.\r\n\ \r\n\ @return\ \ gives\ detailed\ information\ about\ the\ exception.\r\n
+numComments=3

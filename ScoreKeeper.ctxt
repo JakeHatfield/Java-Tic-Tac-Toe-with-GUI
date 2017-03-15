@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ScoreKeeper()
+comment0.text=\r\n\ Creates\ an\ Array\ that\ holds\ the\ score\ for\ each\ square.\ Square\ 0\ is\ null.\r\n\ The\ default\ value\ is\ set\ at\ -2\ as\ a\ BlankSquare.\r\n
+comment1.params=
+comment1.target=boolean\ checkForWinner()
+comment1.text=\r\n\ Checks\ if\ their\ is\ winner\ by\ adding\ the\ value\ of\ the\ winning\ combinations\ of\ squares\r\n\ to\ see\ if\ the\ value\ is\ 3\ for\ player\ 1\ or\ 6\ for\ player\ 2.\ Returns\ true\ if\ there\ is\ a\ winner.\r\n\ \r\n\ @return\ \ true\ if\ there\ is\ a\ winner,\ false\ if\ not\r\n
+comment2.params=x
+comment2.target=int\ getScore(int)
+comment2.text=\r\n\ Gets\ the\ score\ for\ a\ selected\ square.\r\n\ \r\n\ @param\ x\ \ the\ square\ the\ score\ needs\ to\ be\ checked\r\n\ @return\ \ the\ score\ for\ the\ square\ in\ question\r\n
+comment3.params=x\ y
+comment3.target=void\ setScore(int,\ int)
+comment3.text=\r\n\ Sets\ the\ score\ for\ a\ square.\ \r\n\ \r\n\ @param\ x\ \ the\ square\ in\ question\r\n\ @param\ y\ \ the\ score\ of\ the\ corresponding\ player's\ score\ or\ the\ BlankScore\r\n
+numComments=4

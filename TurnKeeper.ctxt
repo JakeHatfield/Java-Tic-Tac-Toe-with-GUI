@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=gui
+comment0.target=TurnKeeper(GUI)
+comment0.text=\r\n\ Sets\ the\ game\ to\ turn\ 1,\ and\ creates\ a\ new\ ScoreKeeper.\ Also\ sets\ the\ newGame\ boolean\ to\ true\r\n\ so\ the\ player\ can\ change\ their\ image.\r\n\ \r\n\ @param\ gui\ \ takes\ a\ gui\ and\ connects\ it\ to\ the\ turnKeeper\r\n
+comment1.params=
+comment1.target=int\ randomTurn()
+comment1.text=\r\n\ Returns\ a\ random\ int\ to\ determine\ who\ goes\ first\ after\ the\ first\ game.\ \r\n\ If\ it\ is\ a\ 1,\ player\ 1\ goes\ first,\ if\ it\ is\ a\ 0,\ it\ is\ set\ to\ 2\ and\ player\ 2\ goes\ first.\r\n\ \r\n\ @return\ \ 0\ or\ 1\ to\ determine\ who\ goes\ first\r\n
+comment2.params=
+comment2.target=void\ passTurn()
+comment2.text=\r\n\ Passes\ the\ turn.\ This\ is\ run\ after\ the\ player\ clicks\ on\ a\ square.\ \r\n\ First\ it\ increases\ the\ turn,\ then\ mods\ it\ by\ two.\ If\ it\ is\ 1,\ it\ is\ player\ 1's\ turn\ next.\r\n\ If\ it\ is\ a\ 0,\ it\ is\ set\ to\ 2\ and\ it\ is\ player\ 2's\ turn\ next.\ Then\ it\ changes\ the\ name\ on\ the\r\n\ turn\ panel\ if\ their\ isn't\ a\ winner.\ If\ there\ is\ a\ winner,\ it\ chacks\ for\ a\ loser.\r\n
+comment3.params=
+comment3.target=int\ getTurnValue()
+comment3.text=\r\n\ Gets\ the\ turn\ value.\r\n\ \r\n\ @return\ \ the\ turn\ value\r\n
+comment4.params=sqrNum
+comment4.target=void\ takeTurn(int)
+comment4.text=\r\n\ This\ method\ is\ called\ when\ the\ player\ clicks\ on\ a\ square.\ The\ square\ passes\ its\r\n\ value\ through\ the\ paramater.\ The\ square\ score\ is\ then\ changed\ and\ the\ image\ is\ changed.\r\n\ The\ game\ is\ checked\ for\ a\ winner,\ and\ then\ the\ turn\ is\ passed.\r\n\ \r\n\ @param\ sqrNum\ \ the\ square\ number\ that\ was\ clicked\ on\r\n
+comment5.params=
+comment5.target=void\ newGame()
+comment5.text=\r\n\ This\ method\ is\ called\ from\ the\ menubar.\ It\ resets\ the\ game.\ It\ first\ sets\ the\ newGame\r\n\ to\ true\ so\ player\ images\ can\ be\ changed.\ It\ then\ sets\ all\ squares\ to\ -2\ and\ changes\ the\ \r\n\ images\ accordingly.\ Then\ it\ get\ a\ random\ number\ and\ sets\ the\ turn\ equal\ to\ that\ number.\r\n
+comment6.params=
+comment6.target=boolean\ checkForLoser()
+comment6.text=\r\n\ Checks\ if\ there\ is\ a\ loser\ by\ checking\ if\ all\ square\ values\ are\ set\ to\ -2.\r\n\ \r\n\ @return\ \ true\ if\ the\ game\ is\ over\ and\ false\ otherwise\r\n
+comment7.params=
+comment7.target=boolean\ checkNewGame()
+comment7.text=\r\n\ Checks\ if\ the\ newGame\ variable\ is\ true.\r\n\ \r\n\ @return\ \ true\ if\ it\ is\ a\ new\ game,\ false\ if\ the\ first\ turn\ has\ been\ taken\r\n
+numComments=8
